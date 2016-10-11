@@ -1,0 +1,25 @@
+#content{
+	margin-top: 140px;
+	color: #73737d;
+	padding: 20px;
+	line-height: 180%;
+}
+#content img{
+	/*background-size: contain;*/
+	width: 100%;
+}
+#content .info,#content .detail{
+	padding: 10px;
+
+}
+#content .info p{
+	border-bottom: 1px solid #e1e1e6;
+	padding: 10px;
+}
+@media all and (max-width: 768px) {
+
+	#content{
+		margin-top: 50px;
+	}
+
+}

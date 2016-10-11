@@ -1,0 +1,47 @@
+#content{
+	margin-top: 140px;
+	height: 100%;
+	background-color: #002B7F;
+	/*background: url(../img/contact.jpg) no-repeat;*/
+	/*background-position: 0 30px;*/
+	color: #fff;
+	padding-top: 10%;
+	margin-top: 160px;
+	margin-bottom: 20px;
+	font-size: 1.14rem;
+	font-weight: bold;
+	background-size: cover;
+}
+#content .title{
+	height: 100px;
+	line-height: 100px;
+}
+#content li{
+	line-height: 180%;
+}
+#content a{
+	color: #000;
+}
+#content .info a{
+	color: #fff;
+}
+#allmap{
+	height: 60%;
+}
+
+
+
+@media all and (max-width: 768px) {
+
+	#content{
+		margin-top: 55px;
+	}
+	#content .title{
+		height: 20px;
+		line-height: 20px;
+	}
+	#allmap{
+		height: 45%;
+	}
+	
+}

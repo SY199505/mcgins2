@@ -1,0 +1,140 @@
+#content{
+	margin-top: 140px;
+	padding: 35px;
+}
+#content .title{
+	color: #565668;
+}
+#content .title h1{
+	font-size: 1.57rem;
+	font-weight: bolder;
+/*	height: 76px;
+	line-height: 76px;*/
+}
+#content .title span{
+	font-size: 0.85rem;
+	font-weight: bold;
+}
+#content .title p{
+	font-size: 1.14rem;
+
+}
+#content .title p:last-child{
+	border-bottom: 1px #dce1e7 solid;
+	/*height: 84px;
+	line-height: 84px;*/
+	padding-bottom: 30px;
+}
+/*课程安排*/
+
+/*表格*/
+#course-plan .title{
+	color: #0262bc ;
+	font-size: 1.29rem;
+	font-weight: bold;
+}
+#course-plan table{
+	border: 1px solid #e5e5e5;
+	margin-bottom: 35px;
+}
+#course-plan table tr td{
+	padding: 10px;
+}
+/*表头*/
+#course-plan table thead tr{
+	height: 50px;
+	color: #fff;
+}
+#course-plan table thead tr td:nth-child(1){
+	color: #6b6f80;
+	font-weight: bold;
+}
+#course-plan table thead tr td:nth-child(2){
+	background: #e28400;
+}
+#course-plan table thead tr td:nth-child(3){
+	background: #eaab00;
+}
+#course-plan table thead tr td:nth-child(4){
+	background: #829d00;
+}
+#course-plan table thead tr td:nth-child(5){
+	background: #3f8715;
+}
+/*表体 第一行tr*/
+#course-plan table tbody tr:first-child{
+	height: 100px;
+	color: #fff;
+}
+#course-plan table tbody tr:first-child td:nth-child(1){
+	color: #6b6f80;
+	font-weight: bold;
+	border: 1px solid #e5e5e5;
+	border-right: none;
+	/*margin-right: -1px;*/
+}
+#course-plan table tbody tr:first-child td:nth-child(2){
+	background: #f19a26;
+	/*border-left: 1px solid #e5e5e5;*/
+}
+#course-plan table tbody tr:first-child td:nth-child(3){
+	background: #f8b900;
+}
+#course-plan table tbody tr:first-child td:nth-child(4){
+	background: #97b10f;
+}
+#course-plan table tbody tr:first-child td:nth-child(5){
+	background: #53a42d;
+}
+/*第二行tr*/
+#course-plan table tbody tr:nth-child(2){
+	height: 170px;
+	color: #6b6f80;
+}
+#course-plan table tbody tr:nth-child(2) td:nth-child(1){
+	font-weight: bold;
+	color: #5c5c5e;
+}
+#course-plan table tbody tr:nth-child(2) td:nth-child(2n+1){
+	background: #e3e3e3;
+}
+#course-plan table tbody tr:nth-child(2) td:nth-child(2n){
+	background: #ebebeb;
+}
+/*第三行tr*/
+#course-plan table tbody tr:nth-child(3) td{
+	color: #5c5c5e;
+	padding-top: 20px;
+}
+#course-plan table tbody tr:nth-child(3) td:nth-child(2n+1){
+	background: #ebebeb;
+}
+#main{
+	height: 400px;
+}
+
+#main{
+	width: 70%;
+	height: 400px;
+}
+@media all and (max-width: 768px) {
+
+	#content{
+		margin-top: 50px;
+	}
+
+}
+@media all and (max-width: 640px) {
+
+	#content{
+		margin-top: 70px;
+	}
+	
+}
+/*@media all and (max-width: 900px){
+	#main{
+		width: 50%;
+		height: 300px;
+	}
+
+}*/

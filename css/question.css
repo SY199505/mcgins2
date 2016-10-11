@@ -1,0 +1,29 @@
+#question{
+	padding: 20px 0;
+	margin-top:140px;
+}
+#content{
+	padding: 0;
+}
+.selected{
+	background:url(../img/question-bg.jpg) no-repeat;
+	background-size: cover;
+}
+.none{
+	text-decoration: none;
+	
+}
+
+span {
+	/*display: block;*/
+	cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+
+	#question{
+		padding: 0 0 20px 0;
+		margin-top: 70px;
+	}
+	
+}

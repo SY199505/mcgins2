@@ -1,0 +1,89 @@
+#banner{
+	/*background: url(../img/banner.jpg) no-repeat;*/
+	background-size: cover;
+	margin-bottom: 1%;
+	margin-top: 140px;
+}
+@media all and (max-width: 768px) {
+
+	#banner{
+		margin-top: 50px;
+	}
+
+}
+#banner p{
+	color: #ffffff;
+	text-indent: 45px;
+	line-height:  2rem;
+	padding: 7% 0;
+}
+#banner img{
+	display: block;
+	padding-top: 5%;
+	/*position: absolute;
+	top: 17%;*/
+	/*left: 40%;*/
+}
+#intro{
+	/*width: 988px;*/
+	/*height: 480px;*/
+	background: #e8edf3;
+}
+#intro .aa{
+	padding-top: 1%;
+	font-weight: 900;
+	color: #565a5d; 
+	margin-bottom: 0;
+
+}
+#intro .bb{
+	margin-top: 5px;
+	color: #a4acb2;
+	font-weight: 100;
+}
+#intro .talents{
+	padding: 0 20px;
+}
+#intro .talent{
+	padding: 5px;
+	margin-bottom: 50px;
+}
+#intro .talent-box{
+	width: 180px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#intro .talent .title {
+	margin-bottom: 20px;
+	height: 50px;
+	color: #f4bd5a;
+	background: #ffffff;
+	position: relative;
+}
+#intro .talent .content{
+	padding-top: 50px;
+	height: 230px;
+	background: #ffffff;
+	position: relative;
+}
+#intro .talent .title, #intro .talent .content{
+	-webkit-transition: all 0.5s ease-in;
+}
+#intro .talent:hover .title{
+	height: 80px;
+	color: #ffffff;
+	background: #709dcc; 	
+	-webkit-transform: translateY(-10px);
+}
+ #intro .talent:hover .content{
+	height: 260px; 	
+	color: #ffffff;
+	background: #709dcc; 	
+
+	
+ }
+
+
+
